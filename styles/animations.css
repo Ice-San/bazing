@@ -1,0 +1,31 @@
+@keyframes hero-background  {
+    0% {background-size: 100;}
+    50% {background-size: 150%;}
+    100% {background-size: 100%;}
+}
+
+@keyframes overlay-intro {
+    from {backdrop-filter: blur(0);}
+    to {backdrop-filter: blur(4px);}
+}
+
+@keyframes content-intro {
+    0% {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    30% {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes arrow {
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(5px);}
+    100% {transform: translateY(0px);}
+}

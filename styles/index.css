@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #FDFDFD;
+    --blue: #2C3E50;
+    --orange: #E67E22;
+    --black: #1E1E1E;
+    --gold: #E5C07B;
+    --red: #C92A2A;
+}
+
+body {
+    background-color: var(--white);
+
+    font-family: 'Poppins';
+    color: var(--black);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+.invisible {
+    display: none;
+}
+
+.img-container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

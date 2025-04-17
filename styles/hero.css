@@ -1,0 +1,148 @@
+.intro {
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.intro > video {
+    object-fit: cover;
+
+    width: 100%;
+    height: 100%;
+}
+
+.hero {
+    z-index: 0;
+    overflow: hidden;
+
+    color: var(--white);
+
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-container {
+    background-image: url("../src/img/hero/hero-background-img.png");
+
+    width: 100%;
+    height: 100%;
+
+    animation: hero-background 50s linear 9s infinite normal;
+}
+
+.hero-overlay {
+    background-color: rgba(30, 30, 30, 0.25);
+    backdrop-filter: blur(4px);
+
+    width: 100%;
+    height: 100%;
+
+    animation: overlay-intro 2s ease-in-out 7.5s 1 normal;
+}
+
+.logo-position {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-left: 10px;
+
+    cursor: pointer;
+
+    width: 7vw;
+    height: 7vw;
+
+    animation: content-intro 3s ease-in-out 7.5s 1 normal;
+
+    transition: all ease-in-out 0.3s;
+    &:hover {
+        transform: rotate(15deg) scale(0.9);
+    }
+}
+
+.logo-container {
+    background-image: url("../src/img/hero/logo.png");
+
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 30px;
+
+    width: 100%;
+    height: 75%;
+}
+
+.hero-content > h1 {
+    cursor: default;
+
+    font-size: 4vw;
+    line-height: 1.15;
+
+    animation: content-intro 3s ease-in-out 7.5s 1 normal;
+}
+
+.signin-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--white);
+    border-radius: 8px;
+
+    color: var(--black);
+    font-size: 1.5vw;
+
+    padding: 10px;
+
+    width: 20vw;
+    height: auto;
+
+    animation: content-intro 3s ease-in-out 7.5s 1 normal;
+
+    transition: all ease-in-out 0.3s;
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.scroll-down {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+
+    width: 100%;
+    height: 12%;
+
+    animation: content-intro 3s ease-in-out 7.5s 1 normal;
+}
+
+.scroll-down > p {
+    font-size: 1.5vw;
+}
+
+.arrow-scroll {
+    width: 2.5vw;
+    height: 1.5vw;
+
+    animation: arrow 2s ease-in-out 0s infinite normal;
+}
+
+.arrow-scroll-container {
+    background-image: url("../src/img/hero/arrow.png");
+
+    width: 100%;
+    height: 100%;
+}
