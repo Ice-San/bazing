@@ -1,0 +1,74 @@
+@media (max-width: 1300px) {
+    .logo {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .hero-content > h1 {
+        font-size: 5vw;
+    }
+
+    .signin-btn {
+        font-size: 2vw;
+    }
+
+    .scroll-down > p {
+        font-size: 2.5vw;
+    }
+    
+    .arrow-scroll {
+        width: 3.5vw;
+        height: 2vw;
+    }    
+}
+
+@media (max-width: 900px) {
+    .logo {
+        width: 11vw;
+        height: 11vw;
+    }
+
+    .hero-content > h1 {
+        font-size: 7.5vw;
+    }
+
+    .signin-btn {
+        font-size: 3vw;
+        
+        width: 30vw;
+    }
+
+    .scroll-down > p {
+        font-size: 3.5vw;
+    }
+    
+    .arrow-scroll {
+        width: 5.5vw;
+        height: 3vw;
+    }    
+}
+
+@media (max-width: 600px) {
+    .logo {
+        width: 110px;
+        height: 110px;
+    }
+
+    .hero-content > h1 {
+        font-size: 40px;
+    }
+
+    .signin-btn {
+        font-size: 20px;
+        width: 175px;
+    }
+
+    .scroll-down > p {
+        font-size: 20px;
+    }
+    
+    .arrow-scroll {
+        width: 30px;
+        height: 15px;
+    }    
+}
