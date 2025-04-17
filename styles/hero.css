@@ -7,7 +7,7 @@
     overflow: hidden;
 
     width: 100%;
-    height: 100vh;
+    height: 100svh;
 }
 
 .intro > video {
@@ -26,7 +26,7 @@
     color: var(--white);
 
     width: 100%;
-    height: 100vh;
+    height: 100svh;
 }
 
 .hero-container {
