@@ -8,5 +8,5 @@
 
 ## Important Links about Bazing
 
-1. [Website](...)
+1. [Website](https://ice-san.github.io/bazing/)
 2. [Prototype Mid-Fidility](https://www.figma.com/design/wbLSrkmrsrX4sUkBxc8lOK/Bazing?node-id=0-1&t=XtVNnGaGwuiQ24oC-1)
