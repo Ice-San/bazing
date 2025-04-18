@@ -1,8 +1,8 @@
 const intro = document.querySelector(".intro");
-const hero = document.querySelector(".hero");
+const content = document.querySelector(".content");
 
 setTimeout(() => {
-    hero.classList.remove("invisible");
+    content.classList.remove("invisible");
 }, 8200);
 
 setTimeout(() => {

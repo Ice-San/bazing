@@ -48,6 +48,13 @@
     }    
 }
 
+@media (max-width: 700px) {
+    .about > h2 {
+        font-size: 8.5vw;
+        margin: 0 25px;
+    }
+}
+
 @media (max-width: 600px) {
     .logo {
         width: 110px;
@@ -71,4 +78,11 @@
         width: 30px;
         height: 15px;
     }    
+}
+
+@media (max-width: 450px) {
+    .about > h2 {
+        font-size: 35px;
+        margin: 0 25px;
+    }
 }

@@ -1,7 +1,5 @@
 .intro {
     position: fixed;
-    top: 0;
-    left: 0;
     z-index: 1;
     
     overflow: hidden;
@@ -21,6 +19,8 @@
     position: relative;
     z-index: 0;
 
+    cursor: default;
+
     overflow: hidden;
 
     color: var(--white);
@@ -31,8 +31,6 @@
 
 .hero-container {
     position: absolute;
-    top: 0;
-    left: 0;
     z-index: 1;
 
     background-image: url("../src/img/hero/hero-background-img.png");
@@ -45,8 +43,6 @@
 
 .hero-overlay {
     position: absolute;
-    top: 0;
-    left: 0;
     z-index: 2;
 
     background-color: rgba(30, 30, 30, 0.25);

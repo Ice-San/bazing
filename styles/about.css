@@ -1,0 +1,38 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: default;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.about > h2 {
+    font-size: 8vw;
+    line-height: 1.2;
+
+    margin: 0 50px;
+}
+
+.about > h2:first-child {
+    position: absolute;
+    z-index: 0;
+
+    color: #6D6D6D;
+}
+
+.about > h2:last-child {
+    position: absolute;
+    z-index: 1;
+
+    color: transparent;
+    background-image: linear-gradient(to right, var(--black), var(--black));
+    background-clip: text;
+    -webkit-background-clip: text;
+  
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s ease-out;
+}
