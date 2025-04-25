@@ -5,7 +5,7 @@ window.addEventListener("scroll", () => {
 
     if (rect.top < innerHeight) {
         const visiblePart = 1 - rect.top / innerHeight;
-        const width = Math.min(visiblePart * 170, 100);
+        const width = Math.min(visiblePart * 100, 100);
 
         text.style.backgroundSize = width + "% 100%";
     }

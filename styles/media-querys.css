@@ -77,12 +77,30 @@
     .arrow-scroll {
         width: 30px;
         height: 15px;
-    }    
+    }
+
+    .books {
+        grid-gap: 10px;
+    }
+
+    .books-items {
+        min-width: 350px;
+        height: 500px;
+    }
 }
 
 @media (max-width: 450px) {
     .about > h2 {
-        font-size: 35px;
+        font-size: 55px;
         margin: 0 25px;
+    }
+
+    .books {
+        grid-gap: 10px;
+    }
+
+    .books-items {
+        min-width: 300px;
+        height: 400px;
     }
 }

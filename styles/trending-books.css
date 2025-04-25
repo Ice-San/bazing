@@ -1,0 +1,74 @@
+.trending-books {
+    width: 100%;
+    height: auto;
+
+    cursor: default;
+}
+
+.trending-books > h2 {
+    font-size: clamp(2.5em, 5.5vw ,5em);
+    margin-left: 25px;
+}
+
+.books {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-gap: 25px;
+
+    overflow-x: scroll;
+    cursor: grab;
+
+    margin: 25px 0;
+    padding-bottom: 10px;
+
+    width: 100%;
+    height: auto;
+}
+
+.books::-webkit-scrollbar {
+    display: none;
+}
+
+.books:active {
+    cursor: grabbing;
+}
+
+.books-items {
+    border-radius: 8px;
+
+    flex-shrink: 0;
+    
+    min-width: 500px;
+    height: 800px;
+}
+
+.books-items:first-child {
+    margin-left: 25px;
+}
+
+.books-items:last-child {
+    margin-right: 25px;
+}
+
+.book1 {
+    background-image: url("../src/img/trending-books/book1.png");
+    border-radius: 8px;
+}
+
+.book2 {
+    background-image: url("../src/img/trending-books/book2.png");
+}
+
+.book3 {
+    background-image: url("../src/img/trending-books/book3.png");
+}
+
+.book4 {
+    background-image: url("../src/img/trending-books/book4.png");
+    border-radius: 8px;
+}
+
+.book5 {
+    background-image: url("../src/img/trending-books/book5.png");
+}

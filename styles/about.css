@@ -11,6 +11,7 @@
 
 .about > h2 {
     font-size: 8vw;
+    text-wrap: wrap;
     line-height: 1.2;
 
     margin: 0 50px;
