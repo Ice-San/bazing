@@ -33,6 +33,14 @@ a {
     display: none;
 }
 
+.layer-back {
+    z-index: 0;
+}
+
+.layer-front {
+    z-index: 1;
+}
+
 .img-container {
     background-size: cover;
     background-position: center;

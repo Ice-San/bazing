@@ -19,7 +19,6 @@
 
 .hero {
     position: relative;
-    z-index: 0;
 
     overflow: hidden;
 
@@ -33,21 +32,21 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 2;
 
     background-image: url("../src/img/hero/hero-background-img.png");
 
     width: 100%;
     height: 100%;
 
-    animation: hero-background 50s linear 2s infinite normal;
+    animation: hero-background 50s linear 10s infinite normal;
 }
 
 .hero-overlay {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 3;
 
     background-color: rgba(30, 30, 30, 0.25);
     backdrop-filter: blur(4px);
@@ -55,7 +54,7 @@
     width: 100%;
     height: 100%;
 
-    animation: overlay-intro 2s ease-in-out 0s 1 normal;
+    animation: overlay-intro 2s ease-in-out 8395ms 1 normal;
 }
 
 .logo-position {
@@ -72,7 +71,7 @@
     width: 7vw;
     height: 7vw;
 
-    animation: content-intro 3s ease-in-out 0s 1 normal;
+    animation: content-intro 3s ease-in-out 8395ms 1 normal;
 
     transition: all ease-in-out 0.3s;
     &:hover {
@@ -104,7 +103,7 @@
     font-size: 4vw;
     line-height: 1.15;
 
-    animation: content-intro 3s ease-in-out 0s 1 normal;
+    animation: content-intro 3s ease-in-out 8395ms 1 normal;
 }
 
 .signin-btn {
@@ -123,7 +122,7 @@
     width: 20vw;
     height: auto;
 
-    animation: content-intro 3s ease-in-out 0s 1 normal;
+    animation: content-intro 3s ease-in-out 8395ms 1 normal;
 
     transition: all ease-in-out 0.3s;
     &:hover {
@@ -141,7 +140,7 @@
     width: 100%;
     height: 10%;
 
-    animation: content-intro 3s ease-in-out 0s 1 normal;
+    animation: content-intro 3s ease-in-out 8395ms 1 normal;
 }
 
 .scroll-down > p {
@@ -152,7 +151,7 @@
     width: 2.5vw;
     height: 1.5vw;
 
-    animation: arrow 2s ease-in-out 0s infinite normal;
+    animation: arrow 2s ease-in-out 8395ms infinite normal;
 }
 
 .arrow-scroll-container {
