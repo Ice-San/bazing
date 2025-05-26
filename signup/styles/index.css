@@ -1,0 +1,138 @@
+.background {
+    cursor: default;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.background-container {
+    background-image: url("../src/img/background.webp");
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+.background-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    width: 10vw;
+    height: 10vw;
+}
+
+.logo-container {
+    background-image: url("../src/img/black-logo.png");
+}
+
+.form {
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 15px;
+
+    width: 100%;
+    height: auto;
+}
+
+.input {
+    background-color: #E8E8E8;
+    border: 2px solid var(--black);
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+
+    width: 25%;
+    height: auto;
+}
+
+.input > input {
+    color: var(--black);
+    font-size: 1.5vw;
+
+    padding: 10px 10px;
+
+    width: 100%;
+    height: auto;
+}
+
+.input > input::placeholder {
+    color: #464646;
+}
+
+.input-icon {
+    margin-right: 10px;
+
+    width: 1.9vw;
+    height: 1.7vw;
+}
+
+.email-icon {
+    background-image: url("../src/img/email-icon.png");
+}
+
+.password-icon {
+    background-image: url("../src/img/hide-icon.png");
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.show-password-icon {
+    background-image: url("../src/img/show.png");
+
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.password-icon:hover {
+    transform: scale(0.9);
+}
+
+.username-icon {
+    background-image: url("../src/img/username.png");
+}
+
+.signin {
+    background-color: var(--blue);
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    margin-top: 20px;
+    padding: 10px 125px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.signin > p {
+    color: var(--white);
+    font-size: 1.25vw;
+}
+
+.signin:hover {
+    transform: scale(0.9);
+}
+
+.background-overlay > p {
+    font-size: 1.1vw;
+    margin-top: 10px;
+}
+
+.background-overlay > p > a {
+    color: var(--orange);
+    text-decoration: underline;
+}
