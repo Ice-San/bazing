@@ -45,3 +45,136 @@
         transform: translateY(0px);
     }
 }
+
+@keyframes textIntro {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes booksIntro {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes contentIntro {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes tagsFirstColumn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes tagsSecondColumn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes changeFirstBook {
+    0% {
+        transform: translate(0, -225px);
+    }
+    50% {
+        transform: translate(0, 75%);
+    }
+    100% {
+        transform: translate(0, -225px);
+    }
+}
+
+@keyframes changeSecondBook {
+    0% {
+        transform: translate(75px, -200px) rotate(-10deg);
+    }
+    50% {
+        transform: translate(75px, 75%) rotate(0deg);
+    }
+    100% {
+        transform: translate(75px, -200px) rotate(-10deg);
+    }
+}
+
+@keyframes changeThirdBook {
+    0% {
+        transform: translate(-75px, -200px) rotate(10deg);
+    }
+    50% {
+        transform: translate(0px, 75%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-75px, -200px) rotate(10deg);
+    }
+}
+
+@keyframes bookOneIntro {
+    0% {
+        transform: translate(0, 150%);
+    }
+
+    50% {
+        transform: translate(0, -225px);
+    }
+
+    100% {
+        transform: translate(0, -225px);
+    }
+}
+
+@keyframes bookTwoIntro {
+    0% {
+        transform: translate(0, 150%) rotate(0deg);
+    }
+
+    50% {
+        transform: translate(0px, -200px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(75px, -200px) rotate(-10deg);
+    }
+}
+
+@keyframes bookThreeIntro {
+    0% {
+        transform: translate(0px, 150%) rotate(0deg);
+    }
+
+    50% {
+        transform: translate(0px, -200px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-75px, -200px) rotate(10deg);
+    }
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Bazing</title>
-    <link rel="shortcut icon" href="./src/img/utils/logo.png">
+    <link rel="shortcut icon" href="./src/img/utils/logo.webp">
 
     <!-- Get Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,17 +16,12 @@
     <link rel="stylesheet" href="./styles/hero.css">
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/trending-books.css">
+    <link rel="stylesheet" href="./styles/recommendations.css">
     <link rel="stylesheet" href="./styles/animations.css">
     <link rel="stylesheet" href="./styles/media-querys.css">
 </head>
 <body>
-    <div class="intro">
-        <video autoplay muted>
-            <source src="./src/img/hero/hero.mp4" type="video/mp4">
-        </video>
-    </div>
-
-    <div class="hero layer-back">
+    <div class="hero">
         <div class="hero-container img-container"></div>
 
         <div class="hero-overlay">
@@ -58,16 +53,16 @@
         </div>
     </div>
 
-    <div class="content invisible">
-        <div class="about">
+    <div class="content">
+        <div class="about opacity-zero">
             <h2>Take a look on the more trending books!</h2>
             <h2>Take a look on the more trending books!</h2>
         </div>
 
         <div class="trending-books">
-            <h2>Trending Books</h2>
+            <h2 class="opacity-zero">Trending Books</h2>
 
-            <div class="books">
+            <div class="books opacity-zero">
                 <div class="books-items">
                     <div class="img-container book1"></div>
                 </div>
@@ -89,10 +84,80 @@
                 </div>
             </div>
         </div>
+
+        <div class="recommendations">
+            <h2 class="opacity-zero">Let us help you find<br>what you like!</h2>
+
+            <div class="recommendations-content">
+                <div class="recommendations-books">
+                    <div class="books-box invisible">
+                        <div class="img-container adjust-book1 get-books book-first-intro book1"></div>
+                    </div>
+
+                    <div class="books-box invisible">
+                        <div class="img-container adjust-book2 get-books book-second-intro book2"></div>
+                    </div>
+
+                    <div class="books-box invisible">
+                        <div class="img-container adjust-book3 get-books book-third-intro book3"></div>
+                    </div>
+                </div>
+
+                <div class="recommendations-tags invisible">
+                    <h2 class="text-intro">Wich categories do you have interest?</h2>
+
+                    <div class="tags-flex">
+                        <div class="tags-group">
+                            <div class="tags tags-first-column">
+                                <div class="tag">
+                                    <p>Romance</p>
+                                </div>
+                                <div class="tag">
+                                    <p>Sci-Fi</p>
+                                </div>
+                                <div class="tag">
+                                    <p>History</p>
+                                </div>
+                                <div class="tag">
+                                    <p>Terror</p>
+                                </div>
+                                <div class="tag">
+                                    <p>Criminal</p>
+                                </div>
+                                <div class="tag">
+                                    <p>Comedy</p>
+                                </div>
+                            </div>
+        
+                            <div class="tags tags-second-column">
+                                <div class="tag">
+                                    <p>HQ</p>
+                                </div>
+                                <div class="tag">
+                                    <p>Manga</p>
+                                </div>
+                                <div class="tag">
+                                    <p>Horror</p>
+                                </div>
+                                <div class="tag">
+                                    <p>Psychology</p>
+                                </div>
+                                <div class="tag">
+                                    <p>Biology</p>
+                                </div>
+                                <div class="tag">
+                                    <p>Technology</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <script src="./scripts/intro.js"></script>
     <script src="./scripts/about.js"></script>
     <script src="./scripts/trending-books.js"></script>
+    <script src="./scripts/recommendations.js"></script>
 </body>
 </html>

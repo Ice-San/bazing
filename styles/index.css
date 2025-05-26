@@ -33,12 +33,8 @@ a {
     display: none;
 }
 
-.layer-back {
-    z-index: 0;
-}
-
-.layer-front {
-    z-index: 1;
+.opacity-zero {
+    opacity: 0;
 }
 
 .img-container {

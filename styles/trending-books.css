@@ -2,6 +2,8 @@
     width: 100%;
     height: auto;
 
+    overflow: hidden;
+
     cursor: default;
 }
 
@@ -54,23 +56,28 @@
 }
 
 .book1 {
-    background-image: url("../src/img/trending-books/book1.png");
+    background-image: url("../src/img/trending-books/book1.webp");
     border-radius: 8px;
 }
 
 .book2 {
-    background-image: url("../src/img/trending-books/book2.png");
+    background-image: url("../src/img/trending-books/book2.webp");
 }
 
 .book3 {
-    background-image: url("../src/img/trending-books/book3.png");
+    background-image: url("../src/img/trending-books/book3.webp");
+    border-radius: 8px;
 }
 
 .book4 {
-    background-image: url("../src/img/trending-books/book4.png");
+    background-image: url("../src/img/trending-books/book4.webp");
     border-radius: 8px;
 }
 
 .book5 {
-    background-image: url("../src/img/trending-books/book5.png");
+    background-image: url("../src/img/trending-books/book5.webp");
+}
+
+.books-intro {
+    animation: booksIntro 1s 1;
 }

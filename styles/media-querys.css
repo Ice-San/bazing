@@ -3,6 +3,25 @@
         width: 600px;
         height: 875px;
     }
+
+    .tags-group {
+        margin-top: 50px;
+    }
+
+    .tag {
+        border-radius: 10px;
+        padding: 8px 50px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .recommendations-tags {
+        padding-bottom: 55px;
+    }
+
+    .tags {
+        grid-gap: 25px;
+    }
 }
 
 @media (max-width: 1300px) {
@@ -57,13 +76,23 @@
     .arrow-scroll {
         width: 5.5vw;
         height: 3vw;
-    }    
+    }
+    
+    .books-box {
+        width: calc(15vw * 1.6);
+        height: calc(23vw * 1.6);
+    }
 }
 
 @media (max-width: 700px) {
     .about > h2 {
         font-size: 8.5vw;
         margin: 0 25px;
+    }
+
+    .books-box {
+        width: calc(15vw * 1.9);
+        height: calc(23vw * 1.9);
     }
 }
 
@@ -94,6 +123,11 @@
     .books {
         grid-gap: 10px;
     }
+
+    .books-box {
+        width: calc(15vw * 2.2);
+        height: calc(23vw * 2.2);
+    }
 }
 
 @media (max-width: 450px) {
@@ -110,4 +144,57 @@
         width: 300px;
         height: 475px;
     }
+
+    .books-box {
+        width: calc(15vw * 3.5);
+        height: calc(23vw * 2.5);
+    }
+
+    .adjust-book1 {
+        transform: translate(75px, -350px) rotate(-10deg);
+    }
+
+    .adjust-book2 {
+        transform: translate(0, -375px);
+    }
+
+    .adjust-book3 {
+        transform: translate(-75px, -350px) rotate(10deg);
+    }
+
+    @keyframes changeFirstBook {
+    0% {
+        transform: translate(0, -225px);
+    }
+    50% {
+        transform: translate(0, 15%);
+    }
+    100% {
+        transform: translate(0, -225px);
+    }
+}
+
+@keyframes changeSecondBook {
+    0% {
+        transform: translate(75px, -200px) rotate(-10deg);
+    }
+    50% {
+        transform: translate(75px, 15%) rotate(0deg);
+    }
+    100% {
+        transform: translate(75px, -200px) rotate(-10deg);
+    }
+}
+
+@keyframes changeThirdBook {
+    0% {
+        transform: translate(-75px, -200px) rotate(10deg);
+    }
+    50% {
+        transform: translate(0px, 15%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-75px, -200px) rotate(10deg);
+    }
+}
 }

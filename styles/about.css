@@ -37,3 +37,7 @@
     background-repeat: no-repeat;
     transition: background-size 0.3s ease-out;
 }
+
+.text-intro {
+    animation: textIntro 0.8s 1;
+}
