@@ -1,0 +1,88 @@
+@media (min-width: 1800px) {
+    .form {
+        margin-top: 50px;
+    }
+
+    .input > input {
+        font-size: 1.4vw;
+
+        padding: 15px 10px;
+    }
+
+    .signin {
+        margin-top: 50px;
+        padding: 10px 120px;
+    }
+
+    .signin > p {
+        font-size: 1.4vw;
+    }
+}
+
+@media (max-width: 1076px) {
+    .logo {
+        width: 12.5vw;
+        height: 12.5vw;
+    }
+
+    .input {
+        width: 30%;
+    }
+
+    .input > input {
+        font-size: 1.7vw;
+
+        padding: 10px 10px;
+    }
+
+    .input-icon {
+        width: 3vw;
+        height: 2.5vw;
+    }
+
+    .signin {
+        padding: 10px 100px;
+    }
+
+    .signin > p {
+        font-size: 1.7vw;
+    }
+
+    .background-overlay > p {
+        font-size: 1.3vw;
+    }
+}
+
+@media (max-width: 870px) {
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .input {
+        width: 300px;
+    }
+
+    .input > input {
+        font-size: 17.5px;
+
+        padding: 10px 10px;
+    }
+
+    .input-icon {
+        width: 35px;
+        height: 30px;
+    }
+
+    .signin {
+        padding: 10px 120px;
+    }
+
+    .signin > p {
+        font-size: 18px;
+    }
+
+    .background-overlay > p {
+        font-size: 15px;
+    }
+}
