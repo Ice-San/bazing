@@ -24,6 +24,12 @@
     }
 }
 
+@media (min-width: 1500px) {
+    .steve-book {
+        margin-bottom: 15vw;
+    }
+}
+
 @media (max-width: 1300px) {
     .logo {
         width: 8vw;
@@ -50,6 +56,32 @@
     .books-items {
         width: 400px;
         height: 575px;
+    }
+}
+
+@media (max-width: 1143px) {
+    .table {
+        width: 85%;
+        height: 40%;
+    }
+
+    .steve-book {
+        margin-bottom: 155px;
+        width: 55%;
+        height: 55%;
+    }
+}
+
+@media (max-width: 952px) {
+    .table {
+        width: 95%;
+        height: 35%;
+    }
+
+    .steve-book {
+        margin-bottom: 135px;
+        width: 70%;
+        height: 50%;
     }
 }
 
@@ -81,6 +113,12 @@
     .books-box {
         width: calc(15vw * 1.6);
         height: calc(23vw * 1.6);
+    }
+}
+
+@media (max-width: 750px) {
+    .right-content {
+        display: none;
     }
 }
 
