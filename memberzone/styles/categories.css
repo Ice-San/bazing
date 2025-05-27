@@ -1,0 +1,52 @@
+.categories {
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+}
+
+.categories-content {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+
+    overflow-x: auto;
+
+    margin: 0px 10px;
+
+    width: auto;
+    height: auto;
+}
+
+.categories-content::-webkit-scrollbar {
+    display: none;
+}
+
+.tag {
+    background-color: #D9D9D9;
+    color: var(--black);
+    border-radius: 8px;
+
+    flex-shrink: 0;
+    cursor: pointer;
+
+    padding: 5px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.tag:hover {
+    transform: scale(0.9);
+}
+
+.selected-tag {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.tag > p {
+    font-size: 20px;
+}

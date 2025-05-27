@@ -1,0 +1,197 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: default;
+
+    padding: 15px 10px;
+
+    width: 100%;
+    height: auto;
+}
+
+.logotipo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.logo {
+    cursor: pointer;
+
+    width: 4vw;
+    height: 4vw;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(0.9) rotate(-10deg);
+}
+
+.logo-container {
+    background-image: url("../src/img/black-logo.png");
+}
+
+.logotipo > h2 {
+    font-size: 2.5vw;
+}
+
+.search {
+    border: 2px solid #8D8D8D;
+    border-radius: 16px;
+
+    display: flex;
+
+    overflow: hidden;
+
+    width: 35%;
+    height: auto;
+}
+
+.search > input {
+    color: #8D8D8D;
+    font-size: 1.3vw;
+
+    padding: 0px 10px;
+
+    width: 100%;
+    height: auto;
+}
+
+.search-img {
+    background-color: #8D8D8D;
+    padding: 5px 10px;
+
+    cursor: pointer;
+}
+
+.search-img:hover > .search-container {
+    transform: rotate(10deg);
+}
+
+.search-container {
+    width: 2vw;
+    height: 2vw;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.search-icon {
+    background-image: url("../src/img/search-icon.png");
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.cart {
+    position: relative;
+    
+    display: flex;
+    justify-content: flex-end;
+
+    width: 4vw;
+    height: 4vw;
+}
+
+.cart-popup {
+    position: absolute;
+    z-index: 1;
+
+    background-color: #FF7676;
+    border-radius: 12px;
+
+    width: auto;
+    height: auto;
+}
+
+.cart-popup > p {
+    font-size: 1.2vw;
+    padding: 0px 10px;
+}
+
+.cart-container {
+    position: absolute;
+    z-index: 0;
+
+    cursor: pointer;
+
+    width: 4vw;
+    height: 4vw;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.cart-container-size {
+    width: 100%;
+    height: 100%;
+}
+
+.cart-container:hover {
+    transform: scale(0.9);
+}
+
+.cart-icon {
+    background-image: url("../src/img/cart.png");
+}
+
+.profile {
+    background-color: lightgray;
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    width: 4vw;
+    height: 4vw;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.profile:hover {
+    transform: scale(0.9) rotate(10deg);
+}
+
+.signin {
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+
+    color: var(--blue);
+
+    padding: 5px 25px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.signin:hover {
+    background-color: var(--blue);
+    color: var(--white);
+    transform: scale(0.9);
+}
+
+.signin > p {
+    font-size: 1.7vw;
+}
+
+.menu {
+    display: none;
+    cursor: pointer;
+
+    width: 50px;
+    height: 50px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.menu:hover {
+    transform: scale(0.9);
+}
+
+.menu-container {
+    background-image: url("../src/img/menu.png");
+}

@@ -13,8 +13,117 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../src/styles/index.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/categories.css">
+    <link rel="stylesheet" href="./styles/media-querys.css">
 </head>
 <body>
-    This is the MemberZone! :0
+    <div class="header">
+        <div class="logotipo">
+            <a href="../">
+                <div class="logo">
+                    <div class="logo-container img-container"></div>
+                </div>
+            </a>
+
+            <h2>Bazing</h2>
+        </div>
+
+        <div class="search">
+            <input type="text" placeholder="Search">
+
+            <div class="search-img">
+                <div class="search-container">
+                    <div class="search-icon img-container"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="options">
+            <div class="cart">
+                <div class="cart-popup">
+                    <p>+9</p>
+                </div>
+
+                <a class="cart-container" href="./">
+                    <div class="cart-container-size">
+                        <div class="cart-icon img-container"></div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="profile invisible">
+                <div class="profile-container img-container"></div>
+            </div>
+
+            <a href="../signin/">
+                <div class="signin">
+                    <p>Sign In</p>
+                </div>
+            </a>
+
+            <div class="menu">
+                <div class="menu-container img-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="categories">
+        <div class="categories-content">
+            <div class="tag selected-tag">
+                <p>All</p>
+            </div>
+
+            <div class="tag">
+                <p>Comedy</p>
+            </div>
+
+            <div class="tag">
+                <p>Romance</p>
+            </div>
+
+            <div class="tag">
+                <p>Biology</p>
+            </div>
+
+            <div class="tag">
+                <p>Criminal</p>
+            </div>
+
+            <div class="tag">
+                <p>History</p>
+            </div>
+
+            <div class="tag">
+                <p>Horror</p>
+            </div>
+
+            <div class="tag">
+                <p>HQ</p>
+            </div>
+
+            <div class="tag">
+                <p>Manga</p>
+            </div>
+
+            <div class="tag">
+                <p>Psychology</p>
+            </div>
+
+            <div class="tag">
+                <p>Sci-Fi</p>
+            </div>
+
+            <div class="tag">
+                <p>Technology</p>
+            </div>
+
+            <div class="tag">
+                <p>Terror</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/categories.js"></script>
 </body>
 </html>
