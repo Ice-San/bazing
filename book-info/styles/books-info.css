@@ -13,8 +13,8 @@
     border-radius: 8px;
     margin-left: 15px;
 
-    width: 600px;
-    height: 700px;
+    width: 50%;
+    height: 90%;
 }
 
 .info-content {
@@ -65,14 +65,24 @@
     font-size: 1.25vw;
 }
 
-.test-btn {
+.info-btn {
+    display: inline-block;
     background-color: var(--blue);
     border-radius: 8px;
 
+    cursor: pointer;
+
     margin-top: 15px;
     padding: 5px 15px;
+
+    transition: all 0.3s ease-in-out;
 }
 
-.test-btn > p {
+.info-btn:hover {
+    transform: scale(0.9);
+}
+
+.info-btn > p {
     color: var(--white);
+    font-size: 1.4vw;
 }
