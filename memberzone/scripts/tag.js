@@ -17,11 +17,11 @@ tags.forEach(tag => {
             checkTag.classList.remove("selected-tag");
         });
 
-        const categoryTagName = tag.querySelector("p").textContent;
+        const categoryTagName = tag.querySelector("p").textContent.toLowerCase();
 
         tag.classList.add("selected-tag");
 
-        if (categoryTagName.includes("All")) {
+        if (categoryTagName.includes("all")) {
             pageTagContent.classList.remove("invisible");
             resultTagContainer.classList.add("invisible");
             return;
@@ -35,7 +35,7 @@ tags.forEach(tag => {
         const categorySections = pageTagContent.querySelectorAll(".trending-books");
 
         categorySections.forEach(section => {
-            const sectionTitle = section.querySelector("h2")?.textContent;
+            const sectionTitle = section.querySelector("h2")?.textContent.toLowerCase();
 
             if (sectionTitle === categoryTagName) {
                 // Create a new Container
@@ -44,7 +44,7 @@ tags.forEach(tag => {
 
                 // Title
                 const tagTitle = document.createElement('h2');
-                tagTitle.textContent = categoryTagName;
+                tagTitle.textContent = categoryTagName.charAt(0).toUpperCase() + categoryTagName.slice(1);
                 categoryTagContainer.appendChild(tagTitle);
 
                 // Books List

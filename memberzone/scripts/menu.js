@@ -9,9 +9,12 @@ const exitMenu = document.querySelector(".exit-item");
 
 menu.addEventListener("click", () => {
     navbar.classList.add("invisible");
-    pageMenuContent.classList.add("invisible");
-    resultSearchMenuContent.classList.add("invisible");
-    resultTagMenuContent.classList.add("invisible");
+
+    if(pageMenuContent && resultSearchMenuContent && resultTagMenuContent) {
+        pageMenuContent.classList.add("invisible");
+        resultSearchMenuContent.classList.add("invisible");
+        resultTagMenuContent.classList.add("invisible");
+    }
 
     menuContent.classList.remove("invisible");
 });
