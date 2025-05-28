@@ -1,0 +1,144 @@
+.trending-books {
+    margin-top: 25px;
+
+    cursor: default;
+
+    width: 100%;
+    height: auto;
+}
+
+.trending-books:not(.trending-books:first-child) {
+    margin-top: 60px;
+}
+
+.trending-books > h2 {
+    font-size: 3vw;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+
+.books-list {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 25px 15px;
+
+    padding: 0px 15px;
+    margin-bottom: 25px;
+
+    width: 100%;
+    height: auto;
+}
+
+.result-search-content > .books-list {
+    margin-top: 25px;
+}
+
+.book-box {
+    min-width: 275px;
+    width: 5vw;
+    height: auto;
+}
+
+.book {
+    overflow: hidden;
+    border-radius: 8px;
+
+    width: 95%;
+    height: 400px;
+}
+
+.book-container {
+    background-image: url("../../src/img/books/hq/spider-man.jpg");
+}
+
+.book-content {
+    margin: 5px;
+}
+
+.book-price {
+    display: flex;
+    justify-content: space-between;
+
+    width: 95%;
+    height: auto;
+}
+
+.book-price > p:first-child {
+    font-size: 1.7vw;
+    font-weight: 500;
+}
+
+.book-sells > p {
+    color: #6B6B6B;
+    font-size: 1.2vw;
+}
+
+.book-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-gap: 10px;
+
+    margin-top: 10px;
+
+    width: 95%;
+    height: auto;
+}
+
+.book-to-cart {
+    background-color: var(--blue);
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    padding: 5px 0px;
+
+    width: 45%;
+    height: auto;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.book-to-cart:hover {
+    transform: scale(0.9);
+}
+
+.add-cart {
+    min-width: 30px;
+    width: 1vw;
+    min-height: 30px;
+    height: 1vw;
+}
+
+.add-cart-container {
+    background-image: url("../src/img/add-cart.png");
+}
+
+.book-more {
+    border: 2px solid var(--blue);
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    padding: 5px 0px;
+
+    width: 45%;
+    height: auto;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.book-more:hover {
+    transform: scale(0.9);
+}
+
+.book-more > p {
+    color: var(--blue);
+    font-size: 1.3vw;
+}

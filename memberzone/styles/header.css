@@ -1,3 +1,15 @@
+.sticky-content {
+    background-color: var(--white);
+
+    position: sticky;
+    top: 0;
+
+    padding-bottom: 10px;
+
+    width: 100%;
+    height: auto;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -35,7 +47,7 @@
     background-image: url("../src/img/black-logo.png");
 }
 
-.logotipo > h2 {
+.logotipo > h1 {
     font-size: 2.5vw;
 }
 

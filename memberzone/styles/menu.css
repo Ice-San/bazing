@@ -1,0 +1,93 @@
+.exit {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+}
+
+.exit-item {
+    margin-top: 15px;
+    margin-right: 15px;
+
+    cursor: pointer;
+
+    width: 50px;
+    height: 50px;
+
+    animation: menuExitIntro 1s 0s 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.exit-item:hover {
+    transform: scale(0.9) rotate(10deg);
+}
+
+.exit-container {
+    background-image: url("../src/img/close.png");
+}
+
+.menu-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 95vh;
+}
+
+.menu-option {
+    animation: menuOptionsIntro 1s 0s 1;
+}
+
+.menu-option:not(.menu-option:first-child) {
+    margin-top: 20px;
+}
+
+.menu-option > a {
+    font-size: 50px;
+    transition: width 0.3s ease-in-out;
+}
+
+.menu-option > .menu-line {
+    background-color: var(--blue);
+    
+    width: 0px;
+    height: 5px;
+
+    transition: width 0.3s ease-in-out;
+}
+
+.menu-option > a:hover + .menu-line {
+    width: 100%;
+}
+
+.menu-option > a:hover {
+    color: var(--blue);
+}
+
+@keyframes menuOptionsIntro {
+    from {
+        opacity: 0;
+        transform: translateX(-25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes menuExitIntro {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

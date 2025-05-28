@@ -15,115 +15,158 @@
     <link rel="stylesheet" href="../src/styles/index.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/categories.css">
+    <link rel="stylesheet" href="./styles/lists.css">
+    <link rel="stylesheet" href="./styles/menu.css">
     <link rel="stylesheet" href="./styles/media-querys.css">
 </head>
 <body>
-    <div class="header">
-        <div class="logotipo">
-            <a href="../">
-                <div class="logo">
-                    <div class="logo-container img-container"></div>
-                </div>
-            </a>
-
-            <h2>Bazing</h2>
-        </div>
-
-        <div class="search">
-            <input type="text" placeholder="Search">
-
-            <div class="search-img">
-                <div class="search-container">
-                    <div class="search-icon img-container"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="options">
-            <div class="cart">
-                <div class="cart-popup">
-                    <p>+9</p>
-                </div>
-
-                <a class="cart-container" href="./">
-                    <div class="cart-container-size">
-                        <div class="cart-icon img-container"></div>
+    <div class="sticky-content">
+        <div class="header">
+            <div class="logotipo">
+                <a href="../">
+                    <div class="logo">
+                        <div class="logo-container img-container"></div>
                     </div>
                 </a>
-            </div>
-            
-            <div class="profile invisible">
-                <div class="profile-container img-container"></div>
+
+                <h1>Bazing</h1>
             </div>
 
-            <a href="../signin/">
-                <div class="signin">
-                    <p>Sign In</p>
+            <div class="search">
+                <input type="text" placeholder="Search">
+
+                <div class="search-img">
+                    <div class="search-container">
+                        <div class="search-icon img-container"></div>
+                    </div>
                 </div>
-            </a>
+            </div>
 
-            <div class="menu">
-                <div class="menu-container img-container"></div>
+            <div class="options">
+                <div class="cart">
+                    <div class="cart-popup">
+                        <p>+9</p>
+                    </div>
+
+                    <a class="cart-container" href="./">
+                        <div class="cart-container-size">
+                            <div class="cart-icon img-container"></div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="profile invisible">
+                    <div class="profile-container img-container"></div>
+                </div>
+
+                <a href="../signin/">
+                    <div class="signin">
+                        <p>Sign In</p>
+                    </div>
+                </a>
+
+                <div class="menu">
+                    <div class="menu-container img-container"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="categories">
+            <div class="categories-content">
+                <div class="tag selected-tag">
+                    <p>All</p>
+                </div>
+
+                <div class="tag">
+                    <p>Comedy</p>
+                </div>
+
+                <div class="tag">
+                    <p>Romance</p>
+                </div>
+
+                <div class="tag">
+                    <p>Biology</p>
+                </div>
+
+                <div class="tag">
+                    <p>Criminal</p>
+                </div>
+
+                <div class="tag">
+                    <p>History</p>
+                </div>
+
+                <div class="tag">
+                    <p>Horror</p>
+                </div>
+
+                <div class="tag">
+                    <p>HQ</p>
+                </div>
+
+                <div class="tag">
+                    <p>Manga</p>
+                </div>
+
+                <div class="tag">
+                    <p>Psychology</p>
+                </div>
+
+                <div class="tag">
+                    <p>Sci-Fi</p>
+                </div>
+
+                <div class="tag">
+                    <p>Technology</p>
+                </div>
+
+                <div class="tag">
+                    <p>Terror</p>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="categories">
-        <div class="categories-content">
-            <div class="tag selected-tag">
-                <p>All</p>
-            </div>
+    <div class="page-content"></div>
 
-            <div class="tag">
-                <p>Comedy</p>
-            </div>
+    <div class="result-search-content invisible">
+        <div class="books-list"></div>
+    </div>
 
-            <div class="tag">
-                <p>Romance</p>
-            </div>
+    <div class="result-tag-content invisible"></div>
 
-            <div class="tag">
-                <p>Biology</p>
+    <div class="menu-content invisible">
+        <div class="exit">
+            <div class="exit-item">
+                <div class="exit-container img-container"></div>
             </div>
+        </div>
 
-            <div class="tag">
-                <p>Criminal</p>
-            </div>
+        <div class="menu-info">
+            <div class="menu-items">
+                <div class="menu-option">
+                    <a href="../signin/">Sign In</a>
+                    <div class="menu-line"></div>
+                </div>
 
-            <div class="tag">
-                <p>History</p>
-            </div>
+                <div class="menu-option">
+                    <a href="./">Cart</a>
+                    <div class="menu-line"></div>
+                </div>
 
-            <div class="tag">
-                <p>Horror</p>
-            </div>
-
-            <div class="tag">
-                <p>HQ</p>
-            </div>
-
-            <div class="tag">
-                <p>Manga</p>
-            </div>
-
-            <div class="tag">
-                <p>Psychology</p>
-            </div>
-
-            <div class="tag">
-                <p>Sci-Fi</p>
-            </div>
-
-            <div class="tag">
-                <p>Technology</p>
-            </div>
-
-            <div class="tag">
-                <p>Terror</p>
+                <div class="menu-option invisible">
+                    <a href="./">Profile</a>
+                    <div class="menu-line"></div>
+                </div>
             </div>
         </div>
     </div>
 
     <script src="./scripts/categories.js"></script>
+    <script src="./scripts/books.js"></script>
+    <script src="./scripts/menu.js"></script>
+    <script src="./scripts/search.js"></script>
+    <script src="./scripts/tag.js"></script>
 </body>
 </html>

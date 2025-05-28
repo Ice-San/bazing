@@ -15,7 +15,7 @@
     left: 0;
     z-index: 2;
 
-    background-image: url("../src/img/hero/hero-background-img.webp");
+    background-image: url("../img/hero/hero-background-img.webp");
 
     width: 100%;
     height: 100%;
@@ -61,7 +61,7 @@
 }
 
 .logo-container {
-    background-image: url("../src/img/utils/logo.webp");
+    background-image: url("../img/utils/logo.webp");
 
     width: 100%;
     height: 100%;
@@ -136,7 +136,7 @@
 }
 
 .arrow-scroll-container {
-    background-image: url("../src/img/hero/arrow.webp");
+    background-image: url("../img/hero/arrow.webp");
 
     width: 100%;
     height: 100%;

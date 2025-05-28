@@ -36,7 +36,7 @@
 }
 
 .table-container {
-    background-image: url("../src/img/footer/table.png");
+    background-image: url("../img/footer/table.png");
 }
 
 .steve-book {
@@ -52,7 +52,7 @@
 }
 
 .steve-book-container {
-    background-image: url("../src/img/footer/steve-book.png");
+    background-image: url("../img/footer/steve-book.png");
 }
 
 .left-content {
@@ -176,15 +176,15 @@
 }
 
 .github {
-    background-image: url("../src/img/footer/github.png");
+    background-image: url("../img/footer/github.png");
 }
 
 .linkdin {
-    background-image: url("../src/img/footer/linkdin.png");
+    background-image: url("../img/footer/linkdin.png");
 }
 
 .instagram {
-    background-image: url("../src/img/footer/instagram.png");
+    background-image: url("../img/footer/instagram.png");
 }
 
 .discount-intro {

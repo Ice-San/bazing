@@ -56,26 +56,26 @@
 }
 
 .book1 {
-    background-image: url("../src/img/trending-books/book1.webp");
+    background-image: url("../img/trending-books/book1.webp");
     border-radius: 8px;
 }
 
 .book2 {
-    background-image: url("../src/img/trending-books/book2.webp");
+    background-image: url("../img/trending-books/book2.webp");
 }
 
 .book3 {
-    background-image: url("../src/img/trending-books/book3.webp");
+    background-image: url("../img/trending-books/book3.webp");
     border-radius: 8px;
 }
 
 .book4 {
-    background-image: url("../src/img/trending-books/book4.webp");
+    background-image: url("../img/trending-books/book4.webp");
     border-radius: 8px;
 }
 
 .book5 {
-    background-image: url("../src/img/trending-books/book5.webp");
+    background-image: url("../img/trending-books/book5.webp");
 }
 
 .books-intro {

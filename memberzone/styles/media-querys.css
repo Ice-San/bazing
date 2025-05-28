@@ -1,3 +1,14 @@
+@media (min-width: 2000px) {
+    .add-cart {
+        width: 2vw;
+        height: 2vw;
+    }
+
+    .book-more > p {
+        font-size: 1.25vw;
+    }
+}
+
 @media (min-width: 1800px) {
     .categories-content {
         grid-gap: 15px;
@@ -5,6 +16,37 @@
 
     .tag > p {
         font-size: 1.5vw;
+    }
+
+    .book-box {
+        width: 18vw;
+    }
+
+    .book {
+        height: 26vw;
+    }
+}
+
+@media (max-width: 1170px) {
+    .trending-books > h2 {
+        font-size: 50px;
+    }
+
+    .book-price > p:first-child {
+        font-size: 25px;
+    }
+
+    .book-sells > p {
+        font-size: 17px;
+    }
+
+    .add-cart {
+        width: 30px;
+        height: 30px;
+    }
+
+    .book-more > p {
+        font-size: 17px;
     }
 }
 
@@ -14,7 +56,7 @@
         height: 5.5vw;
     }
 
-    .logotipo > h2 {
+    .logotipo > h1 {
         font-size: 3.5vw;
     }
 
@@ -51,13 +93,24 @@
     }
 }
 
+@media (max-width: 900px) {
+    .trending-books > h2 {
+        font-size: 65px;
+        text-align: center;
+    }
+
+    .books-list {
+        justify-content: space-evenly;
+    }
+}
+
 @media (max-width: 725px) {
     .logo {
         width: 60px;
         height: 60px;
     }
 
-    .logotipo > h2 {
+    .logotipo > h1 {
         display: none;
     }
 
@@ -98,6 +151,18 @@
     }
 }
 
+@media (max-width: 612px) {
+    .trending-books > h2 {
+        font-size: 50px;
+        text-align: start;
+    }
+
+    .books-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 @media (max-width: 570px) {
     .search {
         display: none;
@@ -113,5 +178,11 @@
 
     .menu {
         display: unset;
+    }
+}
+
+@media (max-width: 450px) {
+    .trending-books > h2 {
+        font-size: 43px;
     }
 }
