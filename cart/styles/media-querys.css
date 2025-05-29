@@ -1,0 +1,147 @@
+@media (min-width: 2100px) {
+    .cart-product {
+        height: 300px
+    }
+
+    .cart-sumary-container {
+        border-radius: 12px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cart-content-left > h2 {
+        font-size: 50px;
+    }
+
+    .cart-content-left {
+        width: 80%;
+        height: 100%;
+    }
+    
+    .cart-product {
+        height: 150px;
+        min-height: unset;
+    }
+
+    .cart-product-info > h2 {
+        font-size: 20px;
+    }
+
+    .cart-product-info > p {
+        font-size: 16px;
+    }
+
+    .cart-product-delete {
+        width: 30px;
+        height: 30px;
+    }
+
+    .cart-product-options > p {
+        font-size: 22px;
+    }
+
+    .cart-sumary-container {
+        width: 90%;
+    }
+
+    .cart-sumary-container > h2 {
+        font-size: 35px;
+    }
+    
+    .cart-sumary-item > p {
+        font-size: 17px;
+    }
+
+    .cart-sumary-item-name > p:first-child {
+        font-size: 17px;
+    }
+
+    .cart-sumary-item-name > p:last-child {
+        font-size: 13px;
+    }
+
+    .cart-sumary-total > p {
+        font-size: 20px;
+    }
+
+    .cart-sumary-checkout {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 900px) {
+    .cart-content {
+        flex-direction: column;
+    }
+
+    .cart-content-left {
+        width: 100%;
+        height: 90%;
+    }
+
+    .cart-product {
+        height: 175px;
+    }
+
+    .cart-product-info > h2 {
+        font-size: 25px;
+    }
+
+    .cart-product-info > p {
+        font-size: 20px;
+    }
+
+    .cart-product-delete {
+        width: 40px;
+        height: 40px;
+    }
+
+    .cart-product-options > p {
+        font-size: 25px;
+    }
+
+    .cart-sumary {
+        display: none;
+    }
+
+    .cart-sumary-mobile {
+        display: flex;
+    }
+}
+
+@media (max-width: 600px) {
+    .cart-product-info > h2 {
+        font-size: 20px;
+    }
+
+    .cart-product-info > p {
+        font-size: 15px;
+    }
+
+    .cart-product-delete {
+        width: 35px;
+        height: 35px;
+    }
+
+    .cart-product-options > p {
+        font-size: 22px;
+    }
+
+    .cart-sumary-mobile > p {
+        font-size: 22px;
+    }
+
+    .cart-sumary-mobile-checkout > p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 600px) {
+    .cart-sumary-mobile > p {
+        font-size: 20px;
+    }
+
+    .cart-sumary-mobile-checkout > p {
+        font-size: 15px;
+    }
+}
