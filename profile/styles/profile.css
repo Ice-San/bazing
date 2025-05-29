@@ -1,0 +1,293 @@
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 25px;
+
+    cursor: default;
+
+    width: 100%;
+    height: 87.8vh;
+}
+
+.profile-content > h2 {
+    font-size: 4vw;
+}
+
+.profile-box {
+    border-radius: 8px;
+
+    min-width: 350px;
+    width: 75%;
+    max-height: 650px;
+    height: 50%;
+    min-height: 475px;
+}
+
+.profile-box-img {
+    border-radius: 8px;
+    background-image: url("../src/img/profile-gif.png");
+}
+
+.profile-box-overlay {
+    background-color: rgba(30, 30, 30, 0.35);
+    backdrop-filter: blur(12px);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 15px;
+
+    padding: 10px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.profile-box-info {
+    background-color: var(--white);
+    border-radius: 8px;
+
+    width: 50%;
+    height: 100%;
+}
+
+.profile-box-right {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 5px;
+
+    width: 50%;
+    height: 100%;
+}
+
+.profile-box-right > .profile-box-info {
+    width: 100%;
+}
+
+.profile-box-right > .profile-box-info:first-child {
+    height: 50%;
+}
+
+.profile-box-right > .profile-box-info:first-child {
+    margin-bottom: 10px;
+}
+
+.profile-photo {
+    background-color: #E8E8E8;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 40%;
+}
+
+.profile-send-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    font-size: 1.5vw;
+
+    width: 100%;
+    height: 100%;
+}
+
+.profile-send-img > input {
+    display: none;
+}
+
+.profile-inputs {
+    padding: 15px;
+
+    width: 100%;
+    height: 40%;
+}
+
+.profile-input {
+    background-color: #E8E8E8;
+    border: 2px solid var(--black);
+    border-radius: 8px;
+
+    color: var(--black);;
+    font-size: 1.2vw;
+
+    padding: 10px 10px;
+    margin-top: 10px;
+
+    width: 100%;
+    height: auto;
+}
+
+.profile-input > input {
+    color: var(--black);
+    font-size: 1.2vw;
+    
+    width: 100%;
+}
+
+.profile-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 15px;
+
+    padding: 0px 15px;
+    margin-top: 10px;
+
+    width: 100%;
+    height: 17.8%;
+}
+
+.profile-edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid var(--blue);
+    border-radius: 8px;
+
+    color: var(--blue);
+    font-size: 1.5vw;
+
+    cursor: pointer;
+
+    padding: 5px 0px;
+
+    width: 50%;
+    height: auto;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-save {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--blue);
+    border-radius: 8px;
+
+    color: var(--white);
+    font-size: 1.5vw;
+
+    cursor: pointer;
+
+    padding: 6px 0px;
+
+    width: 50%;
+    height: auto;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-edit:hover {
+    transform: scale(0.9);
+}
+
+.profile-save:hover {
+    transform: scale(0.9);
+}
+
+.profile-balance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 10px;
+}
+
+.profile-balance > h2 {
+    font-size: 3.5vw;
+}
+
+.profile-balance > p {
+    color: var(--blue);
+    font-size: 1.6vw;
+    font-weight: 500;
+
+    margin-left: 5px;
+    margin-top: -5px;
+}
+
+.profile-settings {
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 95%;
+    height: 95%;
+}
+
+.profile-choices {
+    width: 100%;
+    height: 90%;
+}
+
+.profile-choices > h2 {
+    font-size: 3.5vw;
+}
+
+.profile-choice:first-child {
+    margin-top: 5px;
+}
+
+.profile-choice {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 10px;
+    padding-right: 7px;
+
+    font-size: 1.3vw;
+
+    width: 100%;
+    height: auto;
+}
+
+.profile-choice > p:last-child {
+    color: var(--blue);
+    cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-choice > p:last-child:hover {
+    transform: scale(0.9);
+}
+
+.profile-delete {
+    border: 2px solid var(--red);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--red);
+    font-size: 1.2vw;
+
+    cursor: pointer;
+
+    padding: 7px 0px;
+    margin-bottom: 15px;
+
+    width: 100%;
+    height: auto;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-delete:hover {
+    transform: scale(0.9);
+}

@@ -1,0 +1,150 @@
+.profile-popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 25px;
+
+    cursor: default;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.profile-popup > h2 {
+    font-size: 4.5vw;
+}
+
+.profile-popup-theme {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 15px;
+}
+
+.profile-white-btn {
+    background-color: lightgray;
+    border-radius: 8px;
+
+    cursor: pointer;
+    padding: 5px 20px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-white-btn > p {
+    font-size: 1.2vw;
+}
+
+.profile-white-btn:hover {
+    transform: scale(0.9);
+}
+
+.profile-black-btn {
+    background-color: lightgray;
+    border-radius: 8px;
+
+    cursor: pointer;
+    padding: 5px 20px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-black-btn > p {
+    font-size: 1.2vw;
+}
+
+.profile-black-btn:hover {
+    transform: scale(0.9);
+}
+
+.profile-selected-btn {
+    background-color: var(--orange);
+}
+
+.profile-popup-input {
+    background-color: #E8E8E8;
+    border: 2px solid var(--black);
+    border-radius: 8px;
+
+    padding: 5px 10px;
+    
+    width: 300px;
+    height: auto;
+}
+
+.profile-popup-input > input {
+    font-size: 1vw;
+}
+
+.profile-popup-btn {
+    display: flex;
+    grid-gap: 25px;
+
+    margin-top: 10px;
+}
+
+.profile-cancel-btn {
+    border: 2px solid var(--red);
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    padding: 5px 25px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-cancel-btn > p {
+    color: var(--red);
+    font-size: 1.2vw;
+}
+
+.profile-cancel-btn:hover {
+    transform: scale(0.9);
+}
+
+.profile-proceed-btn {
+    background-color: var(--blue);
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    padding: 5px 25px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-proceed-btn > p {
+    color: var(--white);
+    font-size: 1.2vw;
+}
+
+.profile-proceed-btn:hover {
+    transform: scale(0.9);
+}
+
+@media (max-width: 1080px) {
+    .profile-popup > h2 {
+        font-size: 50px;
+    }
+
+    .profile-white-btn > p {
+        font-size: 17px;
+    }
+    
+    .profile-black-btn > p {
+        font-size: 17px;
+    }
+
+    .profile-popup-input > input {
+        font-size: 17px;
+    }
+
+    .profile-cancel-btn > p {
+        font-size: 17px;
+    }
+
+    .profile-proceed-btn > p {
+        font-size: 17px;
+    }
+}
