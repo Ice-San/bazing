@@ -55,8 +55,31 @@ submitBtn.addEventListener("click", () => {
         errorPassword = true;
     }
 
-    if(!errorPassword && !errorEmail) {
-        window.location.href = '../../memberzone/';
+    const usersSignInData = JSON.parse(localStorage.getItem("users")) || [];
+    
+    const userSignIn = usersSignInData.find(user => user.email === emailInput.value);
+    if(!userSignIn) {
+        emailInput.value = "That email doens't exists!";
+        
+        emailInput.style.color = "var(--red)";
+        inputs[0].style.border = "2px solid var(--red)";
+
+        errorEmail = true;
+    } else {
+        if(userSignIn.password === passwordInput.value) {
+            if(!errorPassword && !errorEmail) {
+                localStorage.setItem("isLogin", "true");
+                window.location.href = '../../memberzone/';
+            }
+        } else {
+            passwordInput.type = "text";
+            passwordInput.value = "Password doesn't matches!";
+            
+            passwordInput.style.color = "var(--red)";
+            inputs[1].style.border = "2px solid var(--red)";
+
+            errorPassword = true;
+        }
     }
 });
 

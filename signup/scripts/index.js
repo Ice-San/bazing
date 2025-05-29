@@ -76,6 +76,22 @@ submitBtn.addEventListener("click", () => {
     }
 
     if(!errorPassword && !errorEmail && !errorUsername) {
+        const signUpEmail = document.getElementById("input-email").value;
+        const signUpUsername = document.getElementById("input-username").value;
+        const signUpPassword = document.getElementById("input-password").value;
+
+        let usersData = JSON.parse(localStorage.getItem("users")) || [];
+        const newUser = {
+            email: signUpEmail,
+            password: signUpPassword,
+            profilePicture: "",
+            userType: 1,
+            username: signUpUsername
+        }
+
+        usersData.push(newUser);
+        localStorage.setItem("users", JSON.stringify(usersData));
+
         window.location.href = '../../signin/';
     }
 });
