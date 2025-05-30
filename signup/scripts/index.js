@@ -86,7 +86,8 @@ submitBtn.addEventListener("click", () => {
             password: signUpPassword,
             profilePicture: "",
             userType: 1,
-            username: signUpUsername
+            username: signUpUsername,
+            balance: 0.00
         }
 
         usersData.push(newUser);

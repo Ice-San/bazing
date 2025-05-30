@@ -166,6 +166,10 @@
     transition: all 0.3s ease-in-out;
 }
 
+.profile-container {
+    background-image: url("../../src/img/utils/user-icon.png");
+}
+
 .profile:hover {
     transform: scale(0.9) rotate(10deg);
 }

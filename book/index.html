@@ -44,10 +44,6 @@
 
             <div class="options">
                 <div class="cart">
-                    <div class="cart-popup">
-                        <p>+9</p>
-                    </div>
-
                     <a class="cart-container" href="../cart/">
                         <div class="cart-container-size">
                             <div class="cart-icon img-container"></div>
@@ -55,13 +51,13 @@
                     </a>
                 </div>
                 
-                <a href="../profile/">
-                    <div class="profile invisible">
+                <a id="profile-header" href="../profile/" class="invisible">
+                    <div class="profile">
                         <div class="profile-container img-container"></div>
                     </div>
                 </a>
 
-                <a href="../signin/">
+                <a id="signin-header" href="../signin/">
                     <div class="signin">
                         <p>Sign In</p>
                     </div>
@@ -74,24 +70,24 @@
         </div>
     </div>
 
-    <div class="info">
+    <div id="info" class="info">
         <div class="info-img">
             <div class="img-container"></div>
         </div>
 
         <div class="info-content">
-            <h2>The Twisted Ones</h2>
+            <h2></h2>
 
             <div class="info-price">
-                <p>Price: EUR <span>10.99</span></p>
-                <p>Stock: <span>20</span></p>
+                <p>Price: EUR <span></span></p>
+                <p>Stock: <span></span></p>
             </div>
 
             <div class="info-about">
                 <h2>About</h2>
 
                 <div class="info-content-about">
-                    <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    <p></p>
                 </div>
             </div>
 
@@ -110,7 +106,7 @@
 
         <div class="menu-info">
             <div class="menu-items">
-                <div class="menu-option">
+                <div id="signin-menu" class="menu-option">
                     <a href="../signin/">Sign In</a>
                     <div class="menu-line"></div>
                 </div>
@@ -120,7 +116,7 @@
                     <div class="menu-line"></div>
                 </div>
 
-                <div class="menu-option invisible">
+                <div id="profile-menu" class="menu-option invisible">
                     <a href="../profile/">Profile</a>
                     <div class="menu-line"></div>
                 </div>
@@ -129,6 +125,9 @@
     </div>
 
     <script src="../src/scripts/create-db.js"></script>
-    <script src="../memberzone/scripts/menu.js"></script>
+    <script src="./scripts/get-book.js"></script>
+    <script src="./scripts/add-cart.js"></script>
+    <script src="./scripts/menu.js"></script>
+    <script src="./scripts/check-signin.js"></script>
 </body>
 </html>

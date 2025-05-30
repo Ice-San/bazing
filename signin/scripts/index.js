@@ -68,7 +68,7 @@ submitBtn.addEventListener("click", () => {
     } else {
         if(userSignIn.password === passwordInput.value) {
             if(!errorPassword && !errorEmail) {
-                localStorage.setItem("isLogin", "true");
+                localStorage.setItem("isLogin", JSON.stringify(userSignIn));
                 window.location.href = '../../memberzone/';
             }
         } else {

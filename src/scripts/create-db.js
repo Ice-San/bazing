@@ -5,7 +5,8 @@ if(!localStorage.getItem("users")) {
             password: "bazing_adm_2025!?",
             username: "Bazing ADM",
             userType: 0,
-            profilePicture: ""
+            profilePicture: "",
+            balance: 0.00
         }
     ];
 
